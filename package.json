@@ -1,0 +1,23 @@
+{
+  "name": "vulnerable-test-app",
+  "version": "1.0.0",
+  "description": "Test application with known vulnerabilities for OSV-SCALIBR testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["test", "vulnerable", "security"],
+  "author": "Hayrok Security Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.19",
+    "axios": "0.21.1",
+    "minimist": "1.2.5",
+    "node-fetch": "2.6.0",
+    "ws": "7.4.5"
+  },
+  "devDependencies": {
+    "mocha": "8.2.1"
+  }
+}
